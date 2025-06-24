@@ -14,17 +14,18 @@ A multilingual AI-powered medical chatbot that provides health suggestions, symp
 
 ---
 
-
----
-
 ## 🛠️ Requirements
 
 Install the following Python packages before running the app:
 
 ```bash
 pip install streamlit pandas sentence-transformers googletrans==4.0.0-rc1
-
 ```
+
+----
+
+
+
  ## 🧠 How It Works
 ✅ The user inputs a symptom or health-related query.
 ✅ The chatbot uses SentenceTransformer to encode the input and compares it with known diseases in the dataset.
