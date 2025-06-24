@@ -24,8 +24,8 @@ Install the following Python packages before running the app:
 ```bash
 pip install streamlit pandas sentence-transformers googletrans==4.0.0-rc1
 
-
-## 🧠 How It Works
+```
+ ## 🧠 How It Works
 ✅ The user inputs a symptom or health-related query.
 ✅ The chatbot uses SentenceTransformer to encode the input and compares it with known diseases in the dataset.
 ✅ If similarity exceeds a threshold, it returns the most relevant cure.
@@ -33,9 +33,9 @@ pip install streamlit pandas sentence-transformers googletrans==4.0.0-rc1
 ✅ Users can also get personalized health tips based on keywords like sleep, stress, fatigue.
 ✅ All responses are translated into the user-selected language using Google Translate API.
 
-🌍 Supported Languages
-The chatbot supports the following languages for input and output:
 
+🌍 Supported Languages 
+The chatbot supports the following languages for input and output:
 English
 Hindi
 Gujarati
